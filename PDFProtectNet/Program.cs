@@ -15,13 +15,13 @@ namespace PDFProtectNet
             {
 
                 Console.WriteLine("Informe o caminho do pdf");
-                var arquvio = Console.ReadLine();
+                var arquivo = Console.ReadLine();
 
                 Console.WriteLine("Certo, agora me informe a senha");
                 var senha = Console.ReadLine();
 
                 SetPassword.PdfSetPw pw = new SetPassword.PdfSetPw();
-                pw.Set(arquvio, senha);
+                pw.Set(arquivo, senha);
 
                 Console.WriteLine("Arquivo está protegido");
                 Console.WriteLine("Digite Novo para proteger um novo arquivo ou Sair para fizanar a sessão");
