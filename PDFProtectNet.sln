@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFProtectNet", "PDFProtectNet\PDFProtectNet.csproj", "{F8BBF91D-758D-4B3D-81B5-7C2D74EF4576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetPassword", "SetPassword\SetPassword.csproj", "{E715A496-9162-4AB1-99CE-EDB533F9A526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8BBF91D-758D-4B3D-81B5-7C2D74EF4576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BBF91D-758D-4B3D-81B5-7C2D74EF4576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BBF91D-758D-4B3D-81B5-7C2D74EF4576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BBF91D-758D-4B3D-81B5-7C2D74EF4576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E715A496-9162-4AB1-99CE-EDB533F9A526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E715A496-9162-4AB1-99CE-EDB533F9A526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E715A496-9162-4AB1-99CE-EDB533F9A526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E715A496-9162-4AB1-99CE-EDB533F9A526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {210ED0E1-1BC3-4C5B-B3E5-0DA3CE14A1B1}
+	EndGlobalSection
+EndGlobal
